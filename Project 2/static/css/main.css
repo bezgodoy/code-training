@@ -1,6 +1,36 @@
 body {
-    background-color: black;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    font-family: 'Open Sans', 'sans serif';
 }
-nav.navbar.navbar-default.navbar-fixed-top {
-    background-color: yellow;
+nav, .navbar-default {
+    background-color: transparent;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+}
+
+nav.navbar-default .navbar-nav>li>a {
+    color: #fff;;
+}
+
+section.one {
+    background: 
+        linear-gradient(
+            rgba(255, 255, 255, 0.1),
+            rgba(255, 255, 255, 0.1)
+        ),
+        url(../img/back-2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+    height: 100vh;
+    width: 100vw;
+}
+
+h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 3em;
 }
