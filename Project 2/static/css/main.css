@@ -26,6 +26,14 @@ ul.navbar-left {
     font-size: 2rem;
 }
 
+ul.navbar-right {
+    font-size: 1.3rem;
+}
+
+ul.navbar-right>li>a {
+    padding-left: 0px;
+}
+
 section.one {
     background-image: url(../img/header.jpg);
     background-repeat: no-repeat;
